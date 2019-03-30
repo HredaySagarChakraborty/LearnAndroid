@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:gravity="center"
+    android:background="#FFA07A"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <EditText
+            android:id="@+id/signInName"
+            android:hint="Enter your name:"
+            android:layout_margin="20dp"
+            android:textColor="#6fa3be"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/signInPassword"
+            android:hint="Enter your password:"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+
+            android:textColor="#e42929"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/signIn"
+            android:text="SignIn"
+            android:background="#F08080"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Aren't u sign in please sign up"
+            android:layout_margin="10dp"
+            android:background="#F08080"
+            android:textAllCaps="false"
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:id="@+id/progressbarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

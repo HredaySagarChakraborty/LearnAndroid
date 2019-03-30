@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".Structure5Activity">
+
+
+
+    <ImageView
+        android:src="@drawable/strings"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <TextView
+        android:text="One XML file we can take a look at is called strings.xml. The idea is that you put all your text strings in this file. If you want text on a button, for example, you don't type it directly into the properties area like we did. You place the text in the strings file and then pull it from there. Let's how. It's quite easy."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

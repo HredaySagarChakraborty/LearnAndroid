@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Android4Activity">
+
+
+        <ImageView
+            android:src="@drawable/bunu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+
+<TextView
+    android:padding="20dp"
+
+    android:text="The confrontation between Android and iOS has already begun as early as a few years ago. Apple and Google are like Coca-Cola and Pepsi, McDonald's and KFC, and Canon and Nikon. As we all know, competition is not only a contest between businesses, but also a competition between fan groups. It is precise that the two forces’ continuity of struggle makes the evolution of mobile systems advance by leaps and bounds with each passing day. Is Android better than iOS presently? Let’s analyze the past and current situation."
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+</LinearLayout>

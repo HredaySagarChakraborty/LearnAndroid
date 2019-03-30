@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Android7Activity">
+
+    <ImageView
+        android:src="@drawable/art"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <TextView
+
+        android:text="Image result for Art vs Dalvikandroid.jlelse.eu\n\n
+
+ART vs Dalvik / AOT vs JIT. Android apps are deployed in Dalvik bytecode,\n\n
+ which is portable, unlike native code. ... Dalvik is based on JIT (just in time)\n\n
+  compilation. It means that each time you run an app,\n\n
+ the part of the code required for its execution is going to be translated (compiled) to machine code at that moment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+</LinearLayout>

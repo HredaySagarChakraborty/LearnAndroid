@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Layout2Activity">
+
+
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:text=" 1.Linear Layout
+LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally.
+
+2	Relative Layout
+RelativeLayout is a view group that displays child views in relative positions.
+
+3	Table Layout
+TableLayout is a view that groups views into rows and columns.
+
+4	Absolute Layout
+AbsoluteLayout enables you to specify the exact location of its children.
+
+5	Frame Layout
+The FrameLayout is a placeholder on screen that you can use to display a single view.
+
+6	List View
+ListView is a view group that displays a list of scrollable items.
+
+7	Grid View
+GridView is a ViewGroup that displays items in a two-dimensional, scrollable grid."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

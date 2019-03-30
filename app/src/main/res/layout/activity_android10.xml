@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Android10Activity">
+
+    <ImageView
+        android:src="@drawable/developer"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <TextView
+
+        android:text="If using stock Android, go to Settings > About phone > Build number. On a Samsung Galaxy device, go to Settings > About device > Build number. ...
+Tap Build number seven times. ...
+Go back to Settings, where you'll find a Developer options entry in the menu."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

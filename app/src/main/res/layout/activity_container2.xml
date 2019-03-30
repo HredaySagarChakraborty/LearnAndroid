@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container2Activity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+   <TextView
+
+       android:text="In this tutorial we’ll use a CustomAdapter that populates the custom rows of the Android ListView with an ArrayList. Also to enhance the user experience, we’ll animate the ListView while scrolling.
+
+Table of Contents [hide]
+
+1 Android ListView Custom Adapter Overview
+2 Recycling Rows
+3 Creating a View template
+4 Project Structure
+5 Code
+Android ListView Custom Adapter Overview
+The simplest Adapter to populate a view from an ArrayList is the ArrayAdapter. That’s what we’ll implement in this tutorial. There are other adapters as well, such as the CursorAdapter which binds directly to a result set from a Local SQLite Database and it uses a Cursor as it’s data source.
+
+Recycling Rows
+As a ListView is instantiated and the rows are populated such that the full height of the list is filled. After that no new row items are created in the memory. As the user scrolls through the list, items that leave the screen are kept in memory for later use and then every new row that enters the screen reuses an older row kept in the memory.
+
+Creating a View template
+Let’s create a xml layout that presents the items in a row in a customised way."
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

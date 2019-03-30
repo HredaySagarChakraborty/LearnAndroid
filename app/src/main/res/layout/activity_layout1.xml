@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Layout1Activity">
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/lol"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+
+    <TextView
+
+        android:text="View objects are the basic building blocks of User Interface(UI) elements in Android.
+View is a simple rectangle box which responds to the user's actions.
+Examples are EditText, Button, CheckBox etc..
+View refers to the android.view.View class, which is the base class of all UI classes."
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+
+        android:text="ViewGroup is the invisible container. It holds View and ViewGroup
+For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also.
+ViewGroup is the base class for Layouts."
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>

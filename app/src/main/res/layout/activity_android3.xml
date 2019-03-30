@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Android3Activity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="1	Code names
+2	Pre-commercial release versions
+2.1	Alpha
+2.2	Beta
+3	Version history by API level
+3.1	Android 1.0 (API 1)
+3.2	Android 1.1 (API 2)
+3.3	Android 1.5 Cupcake (API 3)
+3.4	Android 1.6 Donut (API 4)
+3.5	Android 2.0 Eclair (API 5)
+3.5.1	Android 2.0.1 Eclair (API 6)
+3.5.2	Android 2.1 Eclair (API 7)
+3.6	Android 2.2 Froyo (API 8)
+3.7	Android 2.3 Gingerbread (API 9)
+3.7.1	Android 2.3.3 Gingerbread (API 10)
+3.8	Android 3.0 Honeycomb (API 11)
+3.8.1	Android 3.1 Honeycomb (API 12)
+3.8.2	Android 3.2 Honeycomb (API 13)
+3.9	Android 4.0 Ice Cream Sandwich (API 14)
+3.9.1	Android 4.0.3 Ice Cream Sandwich (API 15)
+3.10	Android 4.1 Jelly Bean (API 16)
+3.10.1	Android 4.2 Jelly Bean (API 17)
+3.10.2	Android 4.3 Jelly Bean (API 18)
+3.11	Android 4.4 KitKat (API 19)
+3.11.1	Android 4.4W KitKat, with wearable extensions (API 20)
+3.12	Android 5.0 Lollipop (API 21)
+3.12.1	Android 5.1 Lollipop (API 22)
+3.13	Android 6.0 Marshmallow (API 23)
+3.14	Android 7.0 Nougat (API 24)
+3.14.1	Android 7.1 Nougat (API 25)
+3.15	Android 8.0 Oreo (API 26)
+3.15.1	Android 8.1 Oreo (API 27)
+3.16	Android 9.0 Pie (API 28)
+3.17	Android Q (API 29)
+4	Hardware requirements
+5	See also
+6	Notes
+7	References
+8	External links"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

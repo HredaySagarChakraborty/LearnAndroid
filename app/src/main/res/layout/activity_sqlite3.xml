@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite3Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+
+        android:text="getColumnCount()
+
+This method return the total number of columns of the table.
+
+2
+getColumnIndex(String columnName)
+
+This method returns the index number of a column by specifying the name of the column
+
+3
+getColumnName(int columnIndex)
+
+This method returns the name of the column by specifying the index of the column
+
+4
+getColumnNames()
+
+This method returns the array of all the column names of the table.
+
+5
+getCount()
+
+This method returns the total number of rows in the cursor
+
+6
+getPosition()
+
+This method returns the current position of the cursor in the table
+
+7
+isClosed()
+
+This method returns true if the cursor is closed and return false otherwise
+
+Database - Helper class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

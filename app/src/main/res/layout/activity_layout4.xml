@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Layout4Activity">
+
+
+    <TextView
+        android:text="RelativeLayout is a view group that displays child views in relative positions. The position of each view can be specified as relative to sibling elements (such as to the left-of or below another view) or in positions relative to the parent RelativeLayout area (such as aligned to the bottom, left or center)."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:src="@drawable/relative"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

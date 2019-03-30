@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storage6Activity">
+
+    <TextView
+
+        android:text="Finally, Android provides support for apps to use SQLite databases for data storage. Databases created are app specific, and are available to any class within the app, but not to outside applications. It goes without saying, that before you decide to use an SQLite database for data storage in your app, you should have some SQL knowledge.
+
+We’ll discuss each of these in turn. We use data binding techniques for our sample code, and if you are not familiar with this, or need a refresher, check out our previous article on using data binding in android."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

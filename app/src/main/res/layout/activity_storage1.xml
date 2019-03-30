@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storage1Activity">
+
+
+
+    <TextView
+        android:text="Android provides several options for you to save your app data. The solution you choose depends on your specific needs, such as how much space your data requires, what kind of data you need to store, and whether the data should be private to your app or accessible to other apps and the user.
+
+This page introduces the different data storage options available on Android:
+
+Internal file storage: Store app-private files on the device file system.
+External file storage: Store files on the shared external file system. This is usually for shared user files, such as photos.
+Shared preferences: Store private primitive data in key-value pairs.
+Databases: Store structured data in a private database.
+Except for some types of files on external storage, all these options are intended for app-private data—the data is not naturally accessible to other apps. If you want to share files with other apps, you should use the FileProvider API. To learn more, read Sharing Files.
+
+If you want to expose your app's data to other apps, you can use a ContentProvider. Content providers give you full control of what read/write access is available to other apps, regardless of the storage medium you've chosen for the data (though it's usually a database). For more information, read Content Providers."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

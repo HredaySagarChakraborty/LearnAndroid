@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storage4Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+
+            android:text="Every Android device supports a shared  space that you can use to save files. This space is called external because it's not guaranteed to be accessible—it is a storage space that users can mount to a computer as an external storage device, and it might even be physically removable (such as an SD card). Files saved to the external storage are world-readable and can be modified by the user when they enable USB mass storage to transfer files on a computer.
+
+So before you attempt to access a file in external storage in your app, you should check for the availability of the external storage directories as well as the files you are trying to access.
+
+Most often, you should use external storage for user data that should be accessible to other apps and saved even if the user uninstalls your app, such as captured photos or downloaded files. The system provides standard public directories for these kinds of files, so the user has one location for all their photos, ringtones, music, and such.
+
+You can also save files to the external storage in an app-specific directory that the system deletes when the user uninstalls your app. This might be a useful alternative to internal storage if you need more space, but the files here aren't guaranteed to be accessible because the user might remove the storage SD card. And the files are still world readable; they're just saved to a location that's not shared with other apps.
+
+For more information, read how to save a file on external storage."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

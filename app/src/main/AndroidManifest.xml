@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="comp.example.hreday.learnandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apple"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StructureActivity" />
+        <activity android:name=".LayoutActivity" />
+        <activity android:name=".WidgetActivity" />
+        <activity
+            android:name=".Android2Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android1Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".ServiceActivity" />
+        <activity android:name=".AndroidActivity" />
+        <activity
+            android:name=".Android3Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android4Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android5Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android6Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android7Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android8Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android9Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android10Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Android11Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Structure1Activity" />
+        <activity android:name=".Structure2Activity" />
+        <activity android:name=".Structure3Activity" />
+        <activity android:name=".Structure4Activity" />
+        <activity android:name=".Structure5Activity" />
+        <activity android:name=".Structure6Activity" />
+        <activity android:name=".Layout1Activity" />
+        <activity android:name=".Layout2Activity" />
+        <activity android:name=".Layout3Activity" />
+        <activity android:name=".Layout4Activity" />
+        <activity android:name=".Layout5Activity" />
+        <activity android:name=".Layout6Activity" />
+        <activity android:name=".Widget1Activity" />
+        <activity android:name=".Widget2Activity" />
+        <activity android:name=".Widget3Activity" />
+        <activity android:name=".Widget4Activity" />
+        <activity android:name=".Widget5Activity" />
+        <activity android:name=".Widget6Activity" />
+        <activity android:name=".Widget7Activity" />
+        <activity android:name=".Widget8Activity" />
+        <activity android:name=".Widget9Activity" />
+        <activity android:name=".Widget10Activity" />
+        <activity android:name=".Widget11Activity" />
+        <activity android:name=".Widget12Activity" />
+        <activity android:name=".Widget13Activity" />
+        <activity android:name=".Widget14Activity" />
+        <activity android:name=".Widget15Activity" />
+        <activity android:name=".Widget16Activity" />
+        <activity android:name=".Widget17Activity" />
+        <activity android:name=".Widget18Activity" />
+        <activity android:name=".Widget19Activity" />
+        <activity android:name=".Fragment1Activity" />
+        <activity android:name=".Fragment2Activity" />
+        <activity android:name=".Fragment3Activity" />
+        <activity android:name=".Fragment4Activity" />
+        <activity android:name=".Fragment5Activity" />
+        <activity android:name=".Fragment6Activity" />
+        <activity android:name=".Service1Activity" />
+        <activity android:name=".Service2Activity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ContainerActivity" />
+        <activity android:name=".StorageActivity" />
+        <activity android:name=".Menu1Activity" />
+        <activity android:name=".Menu2Activity" />
+        <activity android:name=".Menu3Activity" />
+        <activity android:name=".Menu4Activity" />
+        <activity android:name=".Container1Activity" />
+        <activity android:name=".Container2Activity" />
+        <activity android:name=".Container3Activity" />
+        <activity android:name=".Container4Activity" />
+        <activity android:name=".Container5Activity" />
+        <activity android:name=".Container6Activity" />
+        <activity android:name=".Storage1Activity" />
+        <activity android:name=".Storage2Activity" />
+        <activity android:name=".Storage3Activity" />
+        <activity android:name=".Storage4Activity" />
+        <activity android:name=".Storage5Activity" />
+        <activity android:name=".Storage6Activity" />
+        <activity android:name=".SqliteActivity" />
+        <activity android:name=".Sqlite1Activity" />
+        <activity android:name=".Sqlite2Activity" />
+        <activity android:name=".Sqlite3Activity" />
+        <activity android:name=".Sqlite4Activity" />
+        <activity android:name=".Sqlite5Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container6Activity">
+
+
+
+
+    <TextView
+
+        android:text="Android SearchView provides user interface to search query submitted over search provider. SearchView widget can be implemented over ToolBar/ActionBar or inside a layout.
+
+SearchView is by default collapsible and set to be iconified using setIconifiedByDefault(true) method of SearchView class. For making search field visible, SearchView uses setIconifiedByDefault(false) method.
+
+Methods of SearchView
+public boolean onQueryTextSubmit(String query): It searches the query on the submission of content over SearchView editor. It is case dependent.
+public boolean onQueryTextChange(String newText): It searches the query at the time of text change over SearchView editor."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

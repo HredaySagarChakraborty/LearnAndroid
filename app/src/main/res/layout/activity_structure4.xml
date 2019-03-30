@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Structure4Activity">
+
+
+    <ImageView
+        android:src="@drawable/java"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <TextView
+        android:text="Java itself was released by Sun Microsystems back in 1995 and is used for a wide range of programming applications. Java code is run by a “virtual machine,” which runs on Android devices and interprets the code. Unfortunately, Java is also a little complicated and it's not a great “first language.”"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

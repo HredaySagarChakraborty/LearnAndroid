@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Widget11Activity">
+
+
+
+
+    <TextView
+        android:text="ProgressBar:\n
+        The datepicker is tied to a standard form input field. Focus on the input (click, or use the tab key) to open an interactive calendar in a small overlay. Choose a date, click elsewhere on the page (blur the input), or hit the Esc key to close. If a date is chosen, feedback is shown as the input's value.
+        "
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/datepicker1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+
+
+
+
+</LinearLayout>

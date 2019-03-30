@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2Activity">
+
+
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:text="Android Intent is the message that is passed between components such as activities, content providers, broadcast receivers, services etc.
+
+It is generally used with startActivity() method to invoke activity, broadcast receivers etc.
+
+The dictionary meaning of intent is intention or purpose. So, it can be described as the intention to do action.
+
+The LabeledIntent is the subclass of android.content.Intent class.
+
+Android intents are mainly used to:
+
+Start the service
+Launch an activity
+Display a web page
+Display a list of contacts
+Broadcast a message
+Dial a phone call etc.
+
+
+Types of Android Intents
+There are two types of intents in android: implicit and explicit.
+
+1) Implicit Intent
+Implicit Intent doesn't specifiy the component. In such case, intent provides information of available components provided by the system that is to be invoked.
+
+For example, you may write the following code to view the webpage.
+
+                    startActivity(intent);
+                    2) Explicit Intent
+                    Explicit Intent specifies the component. In such case, intent provides the external class to be invoked.
+
+                    Intent i = new Intent(getApplicationContext(), ActivityTwo.class);
+                    startActivity(i);
+                    To get the full code of explicit intent, visit the next page.
+
+                    "
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+        </ScrollView>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite4Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <TextView
+            android:textSize="20sp"
+            android:text="You will use Android studio to create an Android application under a package com.example.sairamkrishna.myapplication.
+2	Modify src/MainActivity.java file to get references of all the XML components and populate the contacts on listView.
+3	Create new src/DBHelper.java that will manage the database work
+4	Create a new Activity as DisplayContact.java that will display the contact on the screen
+5	Modify the res/layout/activity_main to add respective XML components
+6	Modify the res/layout/activity_display_contact.xml to add respective XML components
+7	Modify the res/values/string.xml to add necessary string components
+8	Modify the res/menu/display_contact.xml to add necessary menu components
+9	Create a new menu as res/menu/mainmenu.xml to add the insert contact option
+10	Run the application and choose a running android device and install the application on it and verify the results."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

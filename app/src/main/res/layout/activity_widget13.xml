@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Widget13Activity">
+
+
+
+
+    <TextView
+        android:text="ProgressBar:\n
+       Toast toast=Toast.makeText(getApplicationContext(),Toast.LENGTH_SHORT);
+toast.setMargin(50,50);
+toast.show()"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/toast"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/toast1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+
+
+
+
+</LinearLayout>

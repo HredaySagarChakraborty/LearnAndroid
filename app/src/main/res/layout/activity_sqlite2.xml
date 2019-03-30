@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite2Activity">
+
+
+    <TextView
+
+        android:text="we can create table or insert data into table using execSQL method defined in SQLiteDatabase class. Its syntax is given below
+
+mydatabase.execSQL((Username VARCHAR,Password VARCHAR););
+    mydatabase.execSQL(INSERT INTO TutorialsPoint VALUES;);
+    This will insert some values into our table in our database. Another method that also does the same job but take some additional parameter is given below
+
+    Sr.No	Method Description
+    1
+    execSQL(String sql, Object[] bindArgs)
+
+    This method not only insert data , but also used to update or modify already existing data in database using bind arguments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

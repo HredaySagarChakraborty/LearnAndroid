@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".Layout3Activity">
+
+
+
+    <TextView
+        android:text="LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally. You can specify the layout direction with the android:orientation attribute.\n\n
+All children of a LinearLayout are stacked one after the other, so a vertical list will only have one child per row, no matter how wide they are, and a horizontal list will only be one row high (the height of the tallest child, plus padding). A LinearLayout respects margins between children and the gravity (right, center, or left alignment) of each child."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+<ImageView
+    android:src="@drawable/linear"
+    android:layout_width="match_parent"
+    android:layout_height="150dp" />
+
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+</LinearLayout>

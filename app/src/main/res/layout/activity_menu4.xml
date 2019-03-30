@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu4Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<TextView
+
+    android:text="A PopupMenu is a modal menu anchored to a View. It appears below the anchor view if there is room, or above the view otherwise. It's useful for:
+
+Providing an overflow-style menu for actions that relate to specific content (such as Gmail's email headers, shown in figure 4).\n\n
+
+Providing a second part of a command sentence (such as a button marked  that produces a popup menu with different  options).
+Providing a drop-down similar to Spinner that does not retain a persistent selection\n\n
+nstantiate a PopupMenu with its constructor, which takes the current application Context and the View to which the menu should be anchored.
+Use MenuInflater to inflate your menu resource into the Menu object returned by PopupMenu.getMenu().
+Call PopupMenu.show().
+
+"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

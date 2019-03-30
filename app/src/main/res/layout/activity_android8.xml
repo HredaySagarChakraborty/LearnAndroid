@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".Android8Activity">
+
+
+
+
+    <ImageView
+        android:src="@drawable/download"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" Activities
+
+They dictate the UI and handle the user interaction to the smart phone screen.
+
+
+Services
+
+They handle background processing associated with an application.
+
+
+Broadcast Receivers
+
+They handle communication between Android OS and applications.
+
+
+Content Providers
+
+They handle data and database management issues. " ></TextView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

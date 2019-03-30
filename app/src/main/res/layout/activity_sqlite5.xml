@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite5Activity">
+
+
+    <TextView
+        android:text="
+getColumnNames()
+
+This method returns the array of all the column names of the table.
+
+5
+getCount()
+
+This method returns the total number of rows in the cursor
+
+6
+getPosition()
+
+This method returns the current position of the cursor in the table
+
+7
+isClosed()
+
+This method returns true if the cursor is closed and return false otherwise
+"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

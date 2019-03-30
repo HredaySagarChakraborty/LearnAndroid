@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service2Activity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:text="There can be two forms of a service.The lifecycle of service can follow two different paths: started or bound.
+
+Started
+Bound
+1) Started Service
+A service is started when component (like activity) calls startService() method, now it runs in the background indefinitely. It is stopped by stopService() method. The service can stop itself by calling the stopSelf() method.
+
+2) Bound Service
+A service is bound when another component (e.g. client) calls bindService() method. The client can unbind the service by calling the unbindService() method.
+
+The service cannot be stopped until all clients unbind the service.
+
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

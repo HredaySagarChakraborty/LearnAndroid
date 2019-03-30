@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Widget15Activity">
+
+
+
+
+    <TextView
+
+        android:text="AlertDialog:\n
+       A Dialog is small window that prompts the user to a decision or enter additional information.
+
+Some times in your application, if you wanted to ask the user about taking a decision between yes or no in response of any particular action taken by the user, by remaining in the same activity and without changing the screen, you can use Alert Dialog.
+        "
+
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/alert"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/alert1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+
+
+
+
+</LinearLayout>

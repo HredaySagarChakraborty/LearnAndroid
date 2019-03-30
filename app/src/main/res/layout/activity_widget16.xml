@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Widget16Activity">
+
+
+
+
+    <TextView
+
+        android:text="AutocompletedText:\n
+      Sr.	XML Attributes	Description
+1	android:checkMark	Drawable used for check mark graphic
+2	android:checkMarkTint	Tint to apply to the check mark.
+3	android:checkMarkTintMode	Blending mode used to apply the check mark tint.
+4	android:checked	Indicates the initial checked state of this text.
+        "
+
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/auto"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/auto3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+
+
+
+
+</LinearLayout>

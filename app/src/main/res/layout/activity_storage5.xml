@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storage5Activity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="You should use this to save primitive data in key-value pairs. You have a key, which must be a String, and the corresponding value for that key, which can be one of: boolean, float, int, long or string. Internally, the Android platform stores an app’s Shared Preferences in an xml file in a private directory. An app can have multiple Shared Preferences files. Ideally, you will want to use Shared preferences to store application preferences.
+
+2. Internal Storage
+There are lots of situations where you might want to persist data but Shared Preferences is too limiting. You may want to persist Java objects, or images. Or your data logically needs to be persisted using the familiar filesystem hierarchy. The Internal Storage data storage method is specifically for those situations where you need to store data to the device filesystem, but you do not want any other app (even the user) to read this data. Data stored using the Internal Storage method is completely private to your application, and are deleted from the device when your app is uninstalled.
+
+3. External Storage
+Conversely, there are other instances where you might want the user to view the files and data saved by your app, if they wish. To save (and/or read) files to the device’s external storage, your app must request for the WRITE_EXTERNAL_STORAGE permission. If you only want to read from the External Storage without writing, request for the READ_EXTERNAL_STORAGE permission. The WRITE_EXTERNAL_STORAGE permission grants both read/write access. However, beginning with Android 4.4, you can actually write to a “private” external storage folder without requesting WRITE_EXTERNAL_STORAGE. The “private” folder can be read by other applications and by the user, however, data stored in these folders are not scanned by the media scanner. This app_private folder is located in the Android/data directory, and is also deleted when your app is uninstalled.
+
+Beginning with Android 7.0, apps can request for access to a particular directory, rather than requesting for access to the entire external storage. This way, your app can, for example, request access to either the pictures directory only, or the documents directory. This is referred to as scoped directory access. For more information about requesting scoped directory access, check out this Android developer tutorial.
+
+4. SQLite database
+Finally, Android provides support for apps to use SQLite databases for data storage. Databases created are app specific, and are available to any class within the app, but not to outside applications. It goes without saying, that before you decide to use an SQLite database for data storage in your app, you should have some SQL knowledge.
+
+We’ll discuss each of these in turn. We use data binding techniques for our sample code, and if you are not familiar with this, or need a refresher, check out our previous article on using data binding in android."
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

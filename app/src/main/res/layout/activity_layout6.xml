@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Layout6Activity">
+
+
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:text="FrameLayout is designed to block out an area on the screen to display a single item. Generally, FrameLayout should be used to hold a single child view, ."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

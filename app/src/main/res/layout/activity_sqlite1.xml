@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sqlite1Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:textSize="20sp"
+            android:text="SQLite is a opensource SQL database that stores data to a text file on a device. Android comes in with built in SQLite database implementation.
+
+SQLite supports all the relational database features. In order to access this database, you don't need to establish any kind of connections for it like JDBC,ODBC e.t.c
+
+Database - Package
+The main package is android.database.sqlite that contains the classes to manage your own databases
+
+Database - Creation
+In order to create a database you just need to call this method openOrCreateDatabase with your database name and mode as a parameter. It returns an instance of SQLite database which you have to receive in your own object.Its syntax is given below
+
+SQLiteDatabase mydatabase = openOrCreateDatabas,MODE_PRIVATE,null);
+Apart from this , there are other functions available in the database package , that does this job. They are listed below
+
+Sr.No	Method  Description
+1
+openDatabase(String path, SQLiteDatabase.CursorFactory factory, int flags, DatabaseErrorHandler errorHandler)
+
+This method only opens the existing database with the appropriate flag mode. The common flags mode could be OPEN_READWRITE OPEN_READONLY
+
+2
+openDatabase(String path, SQLiteDatabase.CursorFactory factory, int flags)
+
+It is similar to the above method as it also opens the existing database but it does not define any handler to handle the errors of databases
+
+3
+openOrCreateDatabase(String path, SQLiteDatabase.CursorFactory factory)
+
+It not only opens but create the database if it not exists. This method is equivalent to openDatabase method.
+
+4
+openOrCreateDatabase(File file, SQLiteDatabase.CursorFactory factory)
+
+This method is similar to above method but it takes the File object as a path rather then a string. It is equivalent to file.getPath()"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

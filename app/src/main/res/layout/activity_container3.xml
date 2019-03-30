@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Container3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+
+
+        android:text="Welcome to Android ExpandableListView Example Tutorial. In this tutorial we’ll implement an ExpandableListView which is used to group list data by categories. It’s sort of menu and submenus in a Android ListView.
+
+Android ExpandableListView
+Android ExpandableListView is a view that shows items in a vertically scrolling two-level list. It differs from a ListView by allowing two levels which are groups that can be easily expanded and collapsed by touching to view and their respective children items.
+ExpandableListViewAdapter in android loads the data into the items associated with this view.
+
+Following are some important methods that are used by this class :
+
+setChildIndicator(Drawable) : This is used to show an indicator besides each item representing the current state. If the child is the last child for a group, the state state_last will be set
+setGroupIndicator(Drawable) : An indicator is drawn besides the group representing its state i.e. expanded or collapsed. If the group is empty, the state state_empty will be set. If the group is expanded, the state state_expanded will be set
+getGroupView() : It returns view for the list group header
+getChildView() : It returns view for list child item
+The notable interfaces that are implemented by this class are given below :
+
+ExpandableListView.OnChildClickListener : This is overridden to implement the callback method that’s invoked when a child in the expanded list is clicked
+ExpandableListView.OnGroupClickListener : This is overridden to implement the callback method that’s invoked when a group header in the expanded list is clicked
+ExpandableListView.OnGroupCollapseListener : It is used for notifying when a group is collapsed
+ExpandableListView.OnGroupExpandListener : It is used to notify when a group is expanded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

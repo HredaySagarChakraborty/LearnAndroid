@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storage2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <TextView
+            android:text="If you don't need to store a lot of data and it doesn't require structure, you should use SharedPreferences. The SharedPreferences APIs allow you to read and write persistent key-value pairs of primitive data types: booleans, floats, ints, longs, and strings.
+
+The key-value pairs are written to XML files that persist across user sessions, even if your app is killed. You can manually specify a name for the file or use per-activity files to save your data.
+
+The API name  is a bit misleading because the API is not strictly for saving uces, such as what ringtone a user has chosen. You can use SharedPreferences to save any kind of simple data, such as the user's high score. However, if you do want to save user preferences for your app, then you should read how to create a settings UI, which uses the AndroidX Preference Library to build a settings screen and automatically persist the user's settings.
+
+        To learn how to store any type of key-value data, read Save Key-Value Data with SharedPreferences.
+
+        Databases
+        Android provides full support for SQLite databases. Any database you create is accessible only by your app. However, instead of using SQLite APIs directly, we recommend that you create and interact with your databases with the Room persistence library.
+
+        The Room library provides an object-mapping abstraction layer that allows fluent database access while harnessing the full power of SQLite.
+
+        Although you can still save data directly with SQLite, the SQLite APIs are fairly low-level and require a great deal of time and effort to use. For example:
+
+        There is no compile-time verification of raw SQL queries.
+        As your schema changes, you need to update the affected SQL queries manually. This process can be time consuming and error prone.
+        You need to write lots of boilerplate code to convert between SQL queries and Java data objects.
+        The Room persistence library takes care of these concerns for you while providing an abstraction layer over SQLite.
+
+        For sample apps that demonstrate how to use Room, see the following on GitHub:
+
+        Android Architecture Components Basic Sample
+        Room  RxJava Sample
+        Room Migration Sample
+        Database debugging
+        The Android SDK includes a sqlite3 database tool that allows you to browse table contents, run SQL commands, and perform other useful functions on SQLite databases. For more information, see the adb documentation.
+
+        Additional resources
+        For more information about data storage, consult the following resources.
+
+        Codelabs
+        Keep Sensitive Data Safe and Private"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

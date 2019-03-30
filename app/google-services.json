@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "596958893132",
+    "firebase_url": "https://learnandroid-31cca.firebaseio.com",
+    "project_id": "learnandroid-31cca",
+    "storage_bucket": "learnandroid-31cca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596958893132:android:b1d78eaea90fd60c",
+        "android_client_info": {
+          "package_name": "comp.example.hreday.learnandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596958893132-3acfdldmeafdg2kv9a3dd65m1lgbmeol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxDVZQ2cZ2EXAf2RDCx5OAitFlLvKJmGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

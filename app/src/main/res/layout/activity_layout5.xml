@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Layout5Activity">
+
+
+    <TextView
+        android:layout_margin="10dp"
+     android:text="A layout that arranges its children into rows and columns. A TableLayout consists of a number of TableRow objects, each defining a row (actually, you can have other children, which will be explained below). TableLayout containers do not display border lines for their rows, columns, or cells. Each row has zero or more cells; each cell can hold one View object. The table has as many columns as the row with the most cells. A table can leave cells empty. Cells can span columns, as they can in HTML."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:src="@drawable/table"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:src="@drawable/table1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Widget19Activity">
+
+
+<TextView
+    android:text="Simple ViewAnimator that will animate between two or more views that have been added to it. Only one child is shown at a time. If requested, can automatically flip between each child at a regular interval."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/adapterview"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/adapter2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+
+
+
+
+</LinearLayout>
